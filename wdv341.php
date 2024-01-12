@@ -11,11 +11,14 @@
 <body>
 	<header>
 		<h1 id="#top">Alex Vang</h1>
-		<h1>WDV341 Intro PHP</h1>
+		<h1>WDV341 Intro PHP Homework</h1>
 	</header>
 	<nav>
-			<h2><a href="index.html">Back to Homepage</a></h2>
-		</nav>
+		<h2><a href="index.html">Back to Homepage</a></h2>
+	</nav>
+	<div>
+		<h1><a href="helloWorld.php">Hello World</h1>
+	</div>
 	<footer>
 		<p class="center"><a href="#top">Back to Top</a></p>
 	</footer>
