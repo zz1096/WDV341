@@ -15,7 +15,7 @@
         echo "<p>Hello World!</p>";
     ?>
     <nav>
-		<p><a href="wdv341.php">Back to Homework Page</a></p>
+		<p><a href="../wdv341.php">Back to Homework Page</a></p>
 	</nav>
 </body>
 
