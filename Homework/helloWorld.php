@@ -12,7 +12,7 @@
 		<h1>WDV341 Intro PHP</h1>
 	</header>
 	<?php 
-        echo "Hello World!";
+        echo "<p>Hello World!</p>";
     ?>
     <nav>
 		<p><a href="wdv341.php">Back to Homework Page</a></p>
