@@ -17,7 +17,7 @@
 		<h2><a href="index.html">Back to Homepage</a></h2>
 	</nav>
 	<div>
-		<h1><a href="helloWorld.php">Hello World</h1>
+		<h1><a href="Homework/helloWorld.php">Hello World</h1>
 	</div>
 	<footer>
 		<p class="center"><a href="#top">Back to Top</a></p>
