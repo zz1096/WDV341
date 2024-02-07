@@ -102,5 +102,8 @@
 
         formatMoney($money);
     ?>
+    <footer>
+		<p><a href="../wdv341.php">Back to Homework</a></p>
+	</footer>
 </body>
 </html>
