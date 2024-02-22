@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>WDV341 Intro PHP</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+    form {
+      width: 600px;
+      margin: auto;
+      background-color: rgb(11, 11, 11);
+      padding-left: 20px;
+    }
+
+    form legend {
+      font-size: larger;
+      text-align: center;
+    }
+  </style>
+
+</head>
+
+<body>
+  <h1 class="center">WDV341 Intro PHP</h1>
+  <h2 class="center">UNIT 4 - HTML Form Processor</h2>
+  <p class="center">This is an example input form that will demonstrate how a form connects to a server side process.
+  </p>
+  <form id="form1" name="form1" method="post" action="formHandler.php" class="bdr">
+    <legend>Application Form</legend>
+    <p>
+      <label for="first_name">First Name:</label>
+      <input type="text" name="first_name" id="first_name" required/>
+    </p>
+    <p>
+      <label for="last_name">Last Name:</label>
+      <input type="text" name="last_name" id="last_name" required/>
+    </p>
+    <p>
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" required/>
+    </p>
+    <p>
+      <label for="school_name">School Name:</label>
+      <input type="text" name="school_name" id="school_name" required/>
+    </p>
+    <p>
+      <label for="standing">Academic Standing</label>
+      <label for="standing" class="no_background">
+        <input type="radio" name="standing" value="High School" class="input_style1" style="margin-right: 45px;" id="standing" required/>High
+        School
+      </label>
+      <label for="standing" class="no_background">
+        <input type="radio" name="standing" value="Freshman" class="input_style1" style="margin-right: 60px;" id="standing" required/>Freshman
+      </label>
+      <label for="standing" class="no_background">
+        <input type="radio" name="standing" value="Sophomore" class="input_style1" id="standing" required/>Sophomore
+      </label>
+    </p>
+    <p>
+      <label for="major">Major</label>
+      <select name="major" class="center" required>
+        <option name="major" id="major" value="" selected>Select an option</option>
+        <option name="major" id="major" value="Computer Information Systems">Computer Information Systems</option>
+        <option name="major" id="major" value="Graphic Design">Graphic Design</option>
+        <option name="major" id="major" value="Web Development">Web Development</option>
+      </select>
+    </p>
+    <p>
+      <label for="information">Request Info</label>
+      <label for="information" class="no_background">
+        <input type="checkbox" name="information" class="input_style2" value="Please contact me with program information" id="information"/>Please contact me with program information
+      </label>
+      <label for="advisor" class="no_background">
+        <input type="checkbox" name="advisor" class="input_style2" value="I would like to contact a program advisor" id="advisor"/>I would like to contact a program advisor
+      </label>
+    </p>
+    <p>
+      <label for="comments">Additional Comments</label>
+      <textarea name="comments" id="comments"></textarea>
+    </p>
+    <p>
+      <input type="submit" name="button" id="button" value="Submit" class="submit_btn" />
+      <input type="reset" name="button2" id="button2" value="Reset" class="reset_btn" />
+    </p>
+  </form>
+  <footer>
+		<p class="center"><a href="/WDV341/wdv341.php">Back to Homework</a></p>
+	</footer>
+  <p>&nbsp;</p>
+</body>
+
+</html>
