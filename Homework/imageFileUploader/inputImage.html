@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDV341 Intro PHP</title>
+    <link href="../../css/style2.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <h1 class="center">WDV341 Intro PHP</h1>
+    <h2 class="center">UNIT 5 - Image File Uploader</h2>
+    <form action="uploadImage.php" method="post" enctype="multipart/form-data" class="bdr">
+        <p>
+            <label for="inputImg">Select an Image to upload to the server.</label>
+            <input type="file" name="inputImg" id="inputImg">
+        </p>
+        <p>
+            <input type="submit" value="Upload Img" name="submit" class="submit_btn">
+            <input type="reset" name="reset" value="Reset" class="reset_btn" />
+        </p>
+    </form>
+    <footer>
+		<p class="center"><a href="../../wdv341.php">Back to Homework</a></p>
+	</footer>
+</body>
+</html>
