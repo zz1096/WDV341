@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>WDV341 Intro PHP</title>
+  <link href="../../css/style2.css" rel="stylesheet" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+	    color: #81ab92;
+    } 
+  </style>
+</head>
+<body>
+  <h1 class="center">WDV341 Intro PHP</h1>
+  <h2 class="center">PROJECT: Contact Form with Email</h2>
+  <form id="form1" name="form1" method="post" action="formHandler.php" class="bdr">
+    <p>
+      <label for="name">Contact Name</label>
+      <input type="text" name="name" id="name" required/>
+    </p>
+    <p>
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" required/>
+    </p>
+    <p>
+      <label for="reasons">Reasons for Contact</label>
+      <select name="reasons" class="center" required>
+        <option name="reasons" id="reasons" value="" selected>Select an option</option>
+        <option name="reasons" id="reasons" value="Inquiry">Inquiry</option>
+        <option name="reasons" id="reasons" value="Information">Information</option>
+        <option name="reasons" id="reasons" value="Recommendation">Recommendation</option>
+      </select>
+    </p>
+    <p>
+      <label for="comments">Comments</label>
+      <textarea name="comments" id="comments"></textarea>
+    </p>
+    <p>
+      <input type="submit" name="button" id="button" value="Submit" class="submit_btn" />
+      <input type="reset" name="button2" id="button2" value="Reset" class="reset_btn" />
+    </p>
+  </form>
+  <footer>
+		<p class="center"><a href="/WDV341/wdv341.php">Back to Homework</a></p>
+	</footer>
+  <p>&nbsp;</p>
+</body>
+
+</html>
