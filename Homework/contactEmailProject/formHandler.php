@@ -83,6 +83,7 @@ body {
 						<br>
 					</body>
 				</html>";
+		$message = wordwrap($message, 70);
 		$headers = "MIME-Version: 1.0" . "\r\n";
 		$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 		$headers .= "From: info@wdv341.chaeonline.net" . "\r\n"; 
@@ -125,6 +126,7 @@ body {
 								<br>
 							</body>
 						</html>";
+				$message = wordwrap($message, 70);
 				$headers = "MIME-Version: 1.0" . "\r\n";
 				$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 				$headers .= "From: info@wdv341.chaeonline.net" . "\r\n"; 
@@ -142,15 +144,6 @@ body {
 		echo "<h1>Sorry, not enough information was provided to send an email.</h1>";
 		echo "<p>Thank you, please try again.</p>";
 	}
-	
-	// echo $contact_name;
-	// echo "<br>";
-	// echo $email;
-	// echo "<br>";
-	// echo $reasons;
-	// echo "<br>";
-	// echo $comments;
-	// echo "<br>";
 
 	echo "</div>";
 	echo "
